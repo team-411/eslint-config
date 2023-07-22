@@ -2,11 +2,6 @@
   "name": "@team-411/eslint-config",
   "version": "1.0.0",
   "main": "base.js",
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  },
   "scripts": {
     "lint": "eslint --fix"
   },
@@ -24,9 +19,12 @@
     "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.7",
     "@commitlint/types": "^17.4.4",
+    "@team-411/prettier-config": "github:team-411/prettier-config",
+    "@types/eslint": "^8.44.0",
     "@types/node": "^20.4.3",
     "eslint": "^8.45.0",
     "husky": "^8.0.3",
+    "prettier": "^2.8.8",
     "typescript": "^5.1.6"
   },
   "peerDependencies": {

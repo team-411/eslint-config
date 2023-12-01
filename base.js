@@ -40,7 +40,7 @@ module.exports = {
     "array-bracket-spacing": ["error", "never"],
     "array-element-newline": ["error", "consistent"],
     "arrow-body-style": ["error", "as-needed"],
-    "arrow-parens": ["error", "as-needed"],
+    "arrow-parens": ["error", "always"],
     "arrow-spacing": "error",
     "block-spacing": ["error", "always"],
     "brace-style": ["error", "1tbs", { allowSingleLine: true }],
@@ -194,4 +194,3 @@ module.exports = {
     "yoda": ["error", "never"]
   }
 };
-
